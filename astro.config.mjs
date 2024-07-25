@@ -234,26 +234,13 @@ export default defineConfig({
               items: [
                 {
                   label: "Get to Know Us",
-                  link: "/products/courseflow/example",
+                  link: "/products/courseflow/about",
                 },
                 {
-                  label: "Projects",
+                  label: "Documentation",
+                  collapsed: true, // Collapsed by default
                   autogenerate: {
-                    directory: "products/courseflow/projects",
-                  },
-                  items: [
-                    {
-                      label: "2FA - Documentation",
-                      autogenerate: {
-                        directory: "products/courseflow/Projects/2FA - Documentation",
-                      },
-                    },
-                  ]
-                },
-                {
-                  label: "Issues and Resolutions",
-                  autogenerate: {
-                    directory: "products/courseflow/issues-and-resolutions",
+                    directory: "products/courseflow/Documentation",
                   },
                 },
               ],
